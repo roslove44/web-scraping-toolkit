@@ -78,6 +78,9 @@ Pour utiliser le projet de web scraping, suivez les étapes ci-dessous :
 2. Exécutez le fichier `main.py` en utilisant la commande `python main.py`. Le projet commencera à scraper les données des sites web spécifiés.
 
 3. Les données extraites seront enregistrées dans des fichiers CSV, un fichier par catégorie.
+![pyton data extraction result](https://github.com/roslove44/web-scraping-toolkit/assets/90060938/6f3603c3-969c-4ee4-b6b5-984a3b1ab6f7)
+
+
 
 ## Exemples
 
