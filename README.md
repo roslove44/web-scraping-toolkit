@@ -127,6 +127,13 @@ Si vous souhaitez contribuer à l'amélioration du projet de web scraping, vous 
 
 Nous apprécions toutes les contributions et les suggestions d'amélioration du projet !
 
+## Liens utiles
+
+1. Documentation BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+2. Documentation Requests : https://requests.readthedocs.io/en/latest/
+3. Documentation Csv : https://docs.python.org/3/library/csv.html
+4. Documentation Os : https://docs.python.org/3/library/os.html
+
 ## Licence
 
 Ce projet est distribué sous la licence MIT. Vous pouvez consulter le fichier `LICENSE` pour plus d'informations sur les conditions de la licence.
