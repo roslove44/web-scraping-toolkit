@@ -1,0 +1,189 @@
+id,category,parent_id,link
+1,"Elevage, incubation volaille",,https://www.pro-elevage.com/153-elevage-incubation-volaille
+2,Grillage et Gabions,,https://www.pro-elevage.com/154-grillage-gabion
+3,Agriculture / Équestre - Recyclée,,https://www.pro-elevage.com/155-agriculture-equestre-recyclee
+4,Clôture Electrique,,https://www.pro-elevage.com/150-cloture-electrique
+5,COUVEUSES / ECLOSOIRS  ET TOUTES MATÉRIEL D’ÉLEVAGE,1,https://www.pro-elevage.com/12-couveuses-eclosoirs-et-toutes-materiel-delevage
+6,INCUBATION : COUVEUSES /  ECLOSOIRS,5,https://www.pro-elevage.com/19-incubation-couveuses-eclosoirs
+7,Couveuse Familiale,6,https://www.pro-elevage.com/86-couveuse-familiale
+8,Couveuses Standard,6,https://www.pro-elevage.com/41-couveuses-standard
+9,Couveuses Turbo,6,https://www.pro-elevage.com/39-couveuses-turbo
+10,Couveuses Favorit,6,https://www.pro-elevage.com/87-couveuses-favorit
+11,Couveuses Euro Lux,6,https://www.pro-elevage.com/38-couveuses-euro-lux
+12,Couveuses Favorite Olymp ,6,https://www.pro-elevage.com/42-couveuses-favorite-olymp
+13,Couveuses Jumbo XL et XXL,6,https://www.pro-elevage.com/40-couveuses-jumbo-xl-et-xxl
+14,Couveuses Grande capacité ,6,https://www.pro-elevage.com/109-couveuses-grande-capacite
+15,Eclosiors,14,https://www.pro-elevage.com/112-eclosiors
+16,ECLOSOIRS ,6,https://www.pro-elevage.com/134-eclosoirs
+17,Couveuse Reines d'Abeille,6,https://www.pro-elevage.com/433-couveuse-reines-d-abeille
+18,Couveuses Perroquet et Oiseaux exotique ,6,https://www.pro-elevage.com/43-couveuses-perroquet-et-oiseaux-exotique
+19,Couveuses Autruches ,6,https://www.pro-elevage.com/44-couveuses-autruches
+20,Couveuses Rapaces ,6,https://www.pro-elevage.com/104-couveuses-rapaces
+21,Couveuses Reptiles,6,https://www.pro-elevage.com/108-couveuses-reptiles
+22,Couveuses Pièces Détachées,6,https://www.pro-elevage.com/105-couveuses-pieces-detachees
+23,Mire Oeufs,6,https://www.pro-elevage.com/48-mire-oeufs
+24,Paniers pour couveuses et éclosiors ,6,https://www.pro-elevage.com/49-paniers-pour-couveuses-et-eclosiors
+25,COUVEUSES LABORATOIRE,6,https://www.pro-elevage.com/356-couveuses-laboratoire
+26,MARQUAGE / DÉBECAGE ,5,https://www.pro-elevage.com/83-marquage-debecage
+27,NOS KITS COMPLETS / ET PRÊT A L'EMPLOI,5,https://www.pro-elevage.com/73-nos-kits-complets-et-pret-a-l-emploi
+28,AUTRE MATÉRIEL POULAILLER,5,https://www.pro-elevage.com/110-autre-materiel-poulailler
+29,Nids Pondoirs,28,https://www.pro-elevage.com/23-nids-pondoirs
+30,CAISSES DE TRANSPORT ,28,https://www.pro-elevage.com/107-caisses-de-transport
+31,MACHINES LAVER OEUFS  ET  BROYEURS ,28,https://www.pro-elevage.com/97-machines-laver-oeufs-et-broyeurs
+32,CAGES VOLAILLES,28,https://www.pro-elevage.com/106-cages-volailles
+33,ABREUVOIRS ET MANGEOIRES ,1,https://www.pro-elevage.com/84-abreuvoirs-et-mangeoires
+34,"Abreuvoirs, Chauffe abreuvoirs et accessoires",33,https://www.pro-elevage.com/94-abreuvoirs-chauffe-abreuvoirs-et-accessoires
+35,Chauffe Abreuvoir : anti gel  abreuvoir,34,https://www.pro-elevage.com/95-chauffe-abreuvoir-anti-gel-abreuvoir
+36,Mangeoires,33,https://www.pro-elevage.com/96-mangeoires
+37,"TOUTES POUR VOS POUSSINS : ÉLEVEUSES, PLAQUES CHAUFFANTE ETC.",1,https://www.pro-elevage.com/102-toutes-pour-vos-poussins-eleveuses-plaques-chauffante-etc
+38,"ÉLEVEUSES, PLAQUES ET AMPOULES CHAUFFANTE",37,https://www.pro-elevage.com/91-eleveuses-plaques-et-ampoules-chauffante
+39,BOXES ÉLEVEUSES ,37,https://www.pro-elevage.com/424-boxes-eleveuses
+40,PIGEONS ET LAPINS ,1,https://www.pro-elevage.com/85-pigeons-et-lapins
+41,PIGEONS,40,https://www.pro-elevage.com/142-pigeons
+42,LAPINS,40,https://www.pro-elevage.com/143-lapins
+43,PORTIER AUTOMATIQUE POULAILLERS ,1,https://www.pro-elevage.com/13-portier-automatique-poulaillers
+44,Kit portiers complet ,43,https://www.pro-elevage.com/81-kit-portiers-complet
+45,Porte Automatique Poulailler Piéces,43,https://www.pro-elevage.com/24-porte-automatique-poulailler-pieces
+46,Chicken Guard,43,https://www.pro-elevage.com/118-chicken-guard
+47,ANTI-POUX ROUGE /HYGIÈNE ET SANTE ,1,https://www.pro-elevage.com/17-anti-poux-rouge-hygiene-et-sante
+48,"Anti Poux Rouge ""DUTCHYS"" 100% NATUREL",47,https://www.pro-elevage.com/34-anti-poux-rouge-dutchys-100-naturel
+49,"Autres Produits 100% nature (Anti-Mouche, Acariens, Guêpe et plein d'autres )....comme dans la nature même",48,https://www.pro-elevage.com/69-autres-produits-100-nature-anti-mouche-acariens-guepe-et-plein-d-autres-comme-dans-la-nature-meme
+50,REFONA Hygiène Traitements Soins,47,https://www.pro-elevage.com/32-refona-hygiene-traitements-soins
+51,REFONA Compléments Alimentaires,50,https://www.pro-elevage.com/64-refona-complements-alimentaires
+52,REFONA Hygiène Traitements,50,https://www.pro-elevage.com/65-refona-hygiene-traitements
+53,HK Hygiène,47,https://www.pro-elevage.com/63-hk-hygiene
+54,HK Traitements Aliments Soins,47,https://www.pro-elevage.com/31-hk-traitements-aliments-soins
+55,Aliments Traitements Soins animaux,47,https://www.pro-elevage.com/33-aliments-traitements-soins-animaux
+56,Complement Alimentaire,55,https://www.pro-elevage.com/66-complement-alimentaire
+57,Hygiene Protection,55,https://www.pro-elevage.com/67-hygiene-protection
+58,Soins Traitements,55,https://www.pro-elevage.com/68-soins-traitements
+59,TOUTES POUR L'ABATTAGE ,1,https://www.pro-elevage.com/16-toutes-pour-l-abattage
+60,Saignoirs et Entonnoirs,59,https://www.pro-elevage.com/30-saignoirs-et-entonnoirs
+61,Plumeuses,59,https://www.pro-elevage.com/74-plumeuses
+62,Plumeuse a Sec,61,https://www.pro-elevage.com/129-plumeuse-a-sec
+63,Plumeuse humide,61,https://www.pro-elevage.com/130-plumeuse-humide
+64,Bacs à échauder,59,https://www.pro-elevage.com/78-bacs-a-echauder
+65,Chaîne d'Abattage,59,https://www.pro-elevage.com/77-chaine-d-abattage
+66, Pièces Détachées abattage ,59,https://www.pro-elevage.com/76-pieces-detachees-abattage
+67,Ètourdisseur ,59,https://www.pro-elevage.com/434-etourdisseur
+68,Plumeuse Spécial Chasse,59,https://www.pro-elevage.com/435-plumeuse-special-chasse
+69,Animaux Domestiques,1,https://www.pro-elevage.com/101-animaux-domestiques
+70,PIÈGES A PRÉDATEURS,1,https://www.pro-elevage.com/393-pieges-a-predateurs
+71,GABIONS,2,https://www.pro-elevage.com/431-gabions
+72,"GABIONS "" CLASSIQUE""  à commander selon vos besoins ",71,https://www.pro-elevage.com/111-gabions-classique-a-commander-selon-vos-besoins
+73,GABIONS “ECO SYSTEM,71,https://www.pro-elevage.com/114-gabions-eco-system
+74,"GABIONS MINCE de 20, 30 et 40 cm, Mailles à choix",71,https://www.pro-elevage.com/168-gabions-mince-de-20-30-et-40-cm-mailles-a-choix
+75,"GABIONS "" Stone wall "" 3 V  de 19 CM",71,https://www.pro-elevage.com/166-gabions-stone-wall-3-v-de-19-cm
+76,GABIONS TRANSPORTABLE,71,https://www.pro-elevage.com/123-gabions-transportable
+77,GABIONS EN PACK,71,https://www.pro-elevage.com/35-gabions-en-pack
+78,PANNEAUX SEUL ET ACCESSOIRES  GABIONS,71,https://www.pro-elevage.com/115-panneaux-seul-et-accessoires-gabions
+79,PINCES ET AGRAFES GABIONS ,71,https://www.pro-elevage.com/116-pinces-et-agrafes-gabions
+80,LAME DE BANC,71,https://www.pro-elevage.com/169-lame-de-banc
+81,GRILLAGE FORESTIER/ ELEVAGE,2,https://www.pro-elevage.com/432-grillage-forestier-elevage
+82,"GRILLAGE URSUS  VENTE EN PALETTE de 8,10,12,16,ou 20 rouleaux    LIVRAISON INCLU",81,https://www.pro-elevage.com/26-grillage-ursus-vente-en-palette-de-8101216ou-20-rouleaux-livraison-inclu
+83,"Grillage ""Mouton"" hauteur 1.0 m ",82,https://www.pro-elevage.com/136-grillage-mouton-hauteur-10-m
+84,"H 1.2 Grillage ""Mouton"" hauteur 120 cm",82,https://www.pro-elevage.com/137-h-12-grillage-mouton-hauteur-120-cm
+85,"H 1.5 Grillage ""Forestier""hauteur 150 cm",82,https://www.pro-elevage.com/138-h-15-grillage-forestierhauteur-150-cm
+86,"H 1.6 Grillage ""Forestier/Èlevage"" hauteur 160 cm",82,https://www.pro-elevage.com/139-h-16-grillage-forestierelevage-hauteur-160-cm
+87,"H 1.8 Grillage ""Forestier"" hauteur 180 cm",82,https://www.pro-elevage.com/140-h-18-grillage-forestier-hauteur-180-cm
+88,"H 2.0 Grillage ""Forestier"" hauteur 200 cm",82,https://www.pro-elevage.com/141-h-20-grillage-forestier-hauteur-200-cm
+89,"Grillage Spécial ""Bénita"" courte maille ",82,https://www.pro-elevage.com/58-grillage-special-benita-courte-maille
+90, FIL DE ATTACHE,82,https://www.pro-elevage.com/373-fil-de-attache
+91,GRILLAGES FORESTIER SOUDE ,81,https://www.pro-elevage.com/395-grillages-forestier-soude
+92,GRILLAGE A POULES HEXAGONAL,81,https://www.pro-elevage.com/372-grillage-a-poules-hexagonal
+93,GRILLAGE À POULES par rouleau,92,https://www.pro-elevage.com/394-grillage-a-poules-par-rouleau
+94,Grillage poules par palette,92,https://www.pro-elevage.com/27-grillage-poules-par-palette
+95,POTEAUX ET JAMBES DE FORCE PAR PALETTE ,81,https://www.pro-elevage.com/422-poteaux-et-jambes-de-force-par-palette
+96,POTEAUX ET JAMBES DE FORCE RONDS GALVANISER PAR PCS,81,https://www.pro-elevage.com/398-poteaux-et-jambes-de-force-ronds-galvaniser-par-pcs
+97,ROULEAUX BARBELÉ,81,https://www.pro-elevage.com/413-rouleaux-barbele
+98,Accessories de installation grillages forestier,81,https://www.pro-elevage.com/410-accessories-de-installation-grillages-forestier
+99,Clôtures Maisons et jardins,2,https://www.pro-elevage.com/426-clotures-maisons-et-jardins
+100,GRILLAGE CLÔTURE DE JARDIN SOUDÉ + PVC,99,https://www.pro-elevage.com/376-grillage-cloture-de-jardin-soude-pvc
+101,"GRILLAGE DÉCORATIVE + PVC , CLÔTURE DE JARDIN",99,https://www.pro-elevage.com/378-grillage-decorative-pvc-cloture-de-jardin
+102,POTEAUX POUR GRILLAGE JARDIN DÉCORATIVE+ PVC,99,https://www.pro-elevage.com/379-poteaux-pour-grillage-jardin-decorative-pvc
+103,PANNEAUX RIGIDE,99,https://www.pro-elevage.com/416-panneaux-rigide
+104,PANNEAUX SOUDER DOUBLE FIL,99,https://www.pro-elevage.com/417-panneaux-souder-double-fil
+105,POTEAUX POUR PANNEAUX 3D ET PANNEAUX DOUBLE FIL,99,https://www.pro-elevage.com/418-poteaux-pour-panneaux-3d-et-panneaux-double-fil
+106,PIED À VISSER dans le terre,99,https://www.pro-elevage.com/420-pied-a-visser-dans-le-terre
+107,"POTEAU "" forestier ""RONDS PVC vert 38 OU 48 MM",99,https://www.pro-elevage.com/399-poteau-forestier-ronds-pvc-vert-38-ou-48-mm
+108,"POTEAU "" forestier ""RONDS PVC anthracacite 48 MM",99,https://www.pro-elevage.com/400-poteau-forestier-ronds-pvc-anthracacite-48-mm
+109,POTEAUX AVEC ESPACE FIXATION - PIL CLIP,99,https://www.pro-elevage.com/401-poteaux-avec-espace-fixation-pil-clip
+110,ÉLÉMENTS DE PROTECTION A LA HAUTEUR,99,https://www.pro-elevage.com/414-elements-de-protection-a-la-hauteur
+111,ACCESSOIRES d'installation,99,https://www.pro-elevage.com/421-accessoires-d-installation
+112,TENDEURS ET ACCESSOIRES DE POSE GRILLAGE,99,https://www.pro-elevage.com/368-tendeurs-et-accessoires-de-pose-grillage
+113,TENDEURS,112,https://www.pro-elevage.com/369-tendeurs
+114,ACCESSOIRES,112,https://www.pro-elevage.com/370-accessoires
+115,PINCE ET AGRAFES,112,https://www.pro-elevage.com/371-pince-et-agrafes
+116,ACCESSOIRES DE POSE GRILLAGES POUR ÉLEVEURS,115,https://www.pro-elevage.com/397-accessoires-de-pose-grillages-pour-eleveurs
+117,FILS D’ATTACHE,112,https://www.pro-elevage.com/133-fils-dattache
+118,CLÔTURES SIMPLE TORSION,99,https://www.pro-elevage.com/357-clotures-simple-torsion
+119,Grillage SIMPLE TORSION compact,118,https://www.pro-elevage.com/359-grillage-simple-torsion-compact
+120,Grillage SIMPLE TORSION Galvanisé Compact,118,https://www.pro-elevage.com/363-grillage-simple-torsion-galvanise-compact
+121,Grillage SIMPLE TORSION Galvanisé - rouleau AVEC fil de tension,118,https://www.pro-elevage.com/362-grillage-simple-torsion-galvanise-rouleau-avec-fil-de-tension
+122,Grillage SIMPLE TORSION Galvanisé + PVC - rouleau AVEC FIL DE TENSION,118,https://www.pro-elevage.com/361-grillage-simple-torsion-galvanise-pvc-rouleau-avec-fil-de-tension
+123,Grillage SIMPLE TORSION+ PVC 50 compact et SANS fil de tension,118,https://www.pro-elevage.com/358-grillage-simple-torsion-pvc-50-compact-et-sans-fil-de-tension
+124,Fil DE TENSION galvanise + galvanise PVC,118,https://www.pro-elevage.com/360-fil-de-tension-galvanise-galvanise-pvc
+125,"Grillage ""Lapin ""* AUTO COULEURA",118,https://www.pro-elevage.com/374-grillage-lapin-auto-couleura
+126,CANISSE,2,https://www.pro-elevage.com/355-canisse
+127,FILETS ET GRILLAGES VOLIÈRES ,2,https://www.pro-elevage.com/15-filets-et-grillages-volieres
+128,GRILLAGE SOUDÉ VOLIÈRES  par rouleau,127,https://www.pro-elevage.com/60-grillage-soude-volieres-par-rouleau
+129,POUR LES ÉLEVEURS,128,https://www.pro-elevage.com/396-pour-les-eleveurs
+130,FILET COUVERTURE VOLIÈRES / Fabrication Tressé sur mesure ,127,https://www.pro-elevage.com/113-filet-couverture-volieres-fabrication-tresse-sur-mesure
+131,Grillage volières par palettes,127,https://www.pro-elevage.com/144-grillage-volieres-par-palettes
+132,PORTAILS,2,https://www.pro-elevage.com/380-portails
+133,PORTAIL DOUBLE BATTANT ­ SOLID,132,https://www.pro-elevage.com/383-portail-double-battant-solid
+134,PORTAIL DOUBLE BATTANT - IDEAL 2,132,https://www.pro-elevage.com/385-portail-double-battant-ideal-2
+135,PORTAIL DOUBLE BATTANT - PILO­FOR,132,https://www.pro-elevage.com/389-portail-double-battant-pilofor
+136,PORTAIL DOUBLE BATTANT - PILO­FOR SUPER,132,https://www.pro-elevage.com/391-portail-double-battant-pilofor-super
+137,PORTAIL BATTANT SIMPLE - ECONOMY,132,https://www.pro-elevage.com/381-portail-battant-simple-economy
+138,PORTAIL BATTANT SIMPLE - SOLID,132,https://www.pro-elevage.com/382-portail-battant-simple-solid
+139,PORTAIL BATTANT SIMPLE - IDEAL1,132,https://www.pro-elevage.com/384-portail-battant-simple-ideal1
+140,PORTAIL BATTANT SIMPLE - PILO­FOR,132,https://www.pro-elevage.com/387-portail-battant-simple-pilofor
+141,PORTAIL BATTANT SIMPLE - PILO­FOR SUPER,132,https://www.pro-elevage.com/390-portail-battant-simple-pilofor-super
+142,ACCESSOIRES CLÔTURES et Portails,132,https://www.pro-elevage.com/402-accessoires-clotures-et-portails
+143,FERMETURE PORTAILES – UNIVERSAL,132,https://www.pro-elevage.com/388-fermeture-portailes-universal
+144,CLÔTURE TENNIS,2,https://www.pro-elevage.com/364-cloture-tennis
+145,CLÔTURES TORSADÉ TENNIS + PVC 45 ­ TENNIS,144,https://www.pro-elevage.com/365-clotures-torsade-tennis-pvc-45-tennis
+146,POTEAUX GALVA + PVC ­ TENNIS,144,https://www.pro-elevage.com/366-poteaux-galva-pvc-tennis
+147,PORTAILS TENNIS  + PVC ­,144,https://www.pro-elevage.com/367-portails-tennis-pvc-
+148,CLÔTURE AUTOROUTE ,2,https://www.pro-elevage.com/407-cloture-autoroute
+149,PORTAIL AUTOROUTE,148,https://www.pro-elevage.com/411-portail-autoroute
+150,POTEAU RONDE GALVANISER  -X-TRA LONGUE ,148,https://www.pro-elevage.com/412-poteau-ronde-galvaniser-x-tra-longue
+151,JAMBES DE FORCE X-TRA LONGUE ,148,https://www.pro-elevage.com/419-jambes-de-force-x-tra-longue
+152,GRILLAGE AUTOROUTE,148,https://www.pro-elevage.com/427-grillage-autoroute
+153,POTEAUX RECYCLÉ ,3,https://www.pro-elevage.com/156-poteaux-recycle
+154,POTEAU CARRE,3,https://www.pro-elevage.com/157-poteau-carre
+155,DALLE PADDOCK,3,https://www.pro-elevage.com/161-dalle-paddock
+156,NOS POTEAUX RECYCLES    ,3,https://www.pro-elevage.com/162-nos-poteaux-recycles
+157,Planches de banc rècyclè,3,https://www.pro-elevage.com/998-planches-de-banc-recycle
+158,Electrificateurs et Batteries pour clôture ,4,https://www.pro-elevage.com/61-electrificateurs-et-batteries-pour-cloture
+159,Electrificateurs,158,https://www.pro-elevage.com/438-electrificateurs
+160,230 V,159,https://www.pro-elevage.com/442-230-v
+161,MIXTE 12Volt/ 230 Volt,159,https://www.pro-elevage.com/443-mixte-12volt-230-volt
+162,6 / 9 / 12 Volt,159,https://www.pro-elevage.com/444-6-9-12-volt
+163,Solaire,159,https://www.pro-elevage.com/445-solaire
+164,"Pile d'électrificateur 6V,9V,12V",158,https://www.pro-elevage.com/455-pile-d-electrificateur-6v9v12v
+165,Batterie acide 12V,158,https://www.pro-elevage.com/457-batterie-acide-12v
+166, Isolateurs,4,https://www.pro-elevage.com/440-isolateurs
+167,Isolateurs Ruban,166,https://www.pro-elevage.com/450-isolateurs-ruban
+168,Isolateurs Piquets,166,https://www.pro-elevage.com/451-isolateurs-piquets
+169,Isolateurs Fil & Corde,166,https://www.pro-elevage.com/452-isolateurs-fil-corde
+170,Isolateurs D'angles et Ècarteurs,166,https://www.pro-elevage.com/453-isolateurs-d-angles-et-ecarteurs
+171,Poignées et Accessoires,166,https://www.pro-elevage.com/454-poignees-et-accessoires
+172, Conducteurs,4,https://www.pro-elevage.com/439-conducteurs
+173,Fil,172,https://www.pro-elevage.com/446-fil
+174,Ruban,172,https://www.pro-elevage.com/447-ruban
+175,Corde,172,https://www.pro-elevage.com/448-corde
+176, Filets,172,https://www.pro-elevage.com/449-filets
+177,Enrouleurs,172,https://www.pro-elevage.com/464-enrouleurs
+178,"Câble à enterré , Câble Terre / Masse",172,https://www.pro-elevage.com/465-cable-a-enterre-cable-terre-masse
+179,Piquets clôture électrique,4,https://www.pro-elevage.com/437-piquets-cloture-electrique
+180,Piquet plastique et recyclé ,179,https://www.pro-elevage.com/458-piquet-plastique-et-recycle
+181,Piquet en fer,179,https://www.pro-elevage.com/460-piquet-en-fer
+182,Piquet de terre,179,https://www.pro-elevage.com/461-piquet-de-terre
+183,Piquets en bois,179,https://www.pro-elevage.com/997-piquets-en-bois
+184, Accessoires,4,https://www.pro-elevage.com/441-accessoires
+185,Outills et testeurs,184,https://www.pro-elevage.com/462-outills-et-testeurs
+186,Jonction et tension des fil,184,https://www.pro-elevage.com/463-jonction-et-tension-des-fil
+187,Kit complété Rando Équestre  ,4,https://www.pro-elevage.com/466-kit-complete-rando-equestre
+188,Kits complété pour toutes types d'animaux  ,4,https://www.pro-elevage.com/467-kits-complete-pour-toutes-types-d-animaux
