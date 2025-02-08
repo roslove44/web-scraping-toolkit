@@ -5,6 +5,10 @@ import requests
 import re
 import math
 
+# Add csv limit to read bigger file
+# import sys
+# csv.field_size_limit((int )(sys.maxsize/1000000000000))
+
 main_categories = [ 
     {"id": 1, "category": "Elevage, incubation volaille", "parent_id": None, "link": "https://www.pro-elevage.com/153-elevage-incubation-volaille"},
     {"id": 2, "category": "Grillage et Gabions", "parent_id": None, "link": "https://www.pro-elevage.com/154-grillage-gabion"},
@@ -190,4 +194,117 @@ def set_products_file():
         writer.writerows(products)
     print(f"Export terminé : {csv_filename}")
 
-set_products_file()
+def get_product_description(page_url):
+    current_soup = extract_soup(page_url)
+    
+    product_description = current_soup.select_one('#description .product-description')
+    product_reference = current_soup.select_one('#product-details .product-reference span')
+
+    return {
+        "product_description": product_description if product_description else None,
+        "product_reference": product_reference.get_text(strip=True) if product_reference else None
+    }
+
+def set_products_to_shopify_file():
+    csv_filename = "categories_all.csv"
+    input_dir = "result/pro-elevage"
+    file_path = os.path.join(input_dir, csv_filename)
+    categories = []
+    with open(file_path, mode='r', newline='', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            categories.append(row)
+        print("End Reconstitution des catégories")
+    
+    product_csv_filename = "products_all.csv"
+    product_file_path = os.path.join(input_dir, product_csv_filename)
+    products = []
+    with open(product_file_path, mode='r', newline='', encoding='utf-8') as product_file:
+        reader = csv.DictReader(product_file)
+        for row in reader:
+            products.append(row)
+        print("End Reconstitution des Produits")
+
+    csv_filename = "products_shopify.csv"
+    output_dir = "result/pro-elevage"
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(os.path.join(output_dir, csv_filename), mode='w', newline='', encoding='utf-8') as file:
+        fieldnames = [
+            "Handle", "Title", "Body (HTML)", "Vendor", "Product Category", "Type", "Tags", "Published",
+            "Option1 Name", "Option1 Value", "Option2 Name", "Option2 Value", "Option3 Name", "Option3 Value",
+            "Variant SKU", "Variant Grams", "Variant Inventory Tracker", "Variant Inventory Qty", 
+            "Variant Inventory Policy", "Variant Fulfillment Service", "Variant Price", "Variant Compare At Price",
+            "Variant Requires Shipping", "Variant Taxable", "Variant Barcode", "Image Src", "Image Position",
+            "Image Alt Text", "Gift Card", "SEO Title", "SEO Description",
+            "Google Shopping / Google Product Category", "Google Shopping / Gender", "Google Shopping / Age Group",
+            "Google Shopping / MPN", "Google Shopping / AdWords Grouping", "Google Shopping / AdWords Labels",
+            "Google Shopping / Condition", "Google Shopping / Custom Product",
+            "Google Shopping / Custom Label 0", "Google Shopping / Custom Label 1", 
+            "Google Shopping / Custom Label 2", "Google Shopping / Custom Label 3", "Google Shopping / Custom Label 4",
+            "Variant Image", "Variant Weight Unit", "Variant Tax Code", "Cost per item",
+            "Price / International", "Compare At Price / International", "Status", "Custom Product Type"
+        ]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        for product in products:
+            descriptions = get_product_description(product['link'])
+            shopify_product = {
+                "Handle": product['name'],
+                "Title": product['name'],
+                "Body (HTML)": descriptions['product_description'],
+                "Vendor": None,  
+                "Product Category": None,
+                "Type": None,
+                "Tags": categories[int(product['category_id'])-1]['category'],
+                "Custom Product Type": categories[int(product['category_id'])-1]['category'],
+                "Published": "TRUE",
+                "Option1 Name": "",
+                "Option1 Value": "",
+                "Variant SKU": descriptions['product_reference'],
+                "Variant Grams": "",
+                "Variant Inventory Tracker": "shopify",
+                "Variant Inventory Qty": 10000,
+                "Variant Inventory Policy": "deny",
+                "Variant Fulfillment Service": "manual",
+                "Variant Price": (product['price']).replace("€", "").replace(",", ".").strip(),
+                "Variant Compare At Price": None,
+                "Variant Requires Shipping": "TRUE",
+                "Variant Taxable": "false",
+                "Variant Barcode": None,
+                "Image Src": product['image_src'],
+                "Image Position": "1",
+                "Image Alt Text": None,
+                "Gift Card": "FALSE",
+                "SEO Title": product["name"],
+                "SEO Description": product["name"],
+                "Google Shopping / Google Product Category": categories[int(product['category_id'])-1]['category'],
+                "Google Shopping / Gender": "",
+                "Google Shopping / Age Group": "",
+                "Google Shopping / MPN": "",
+                "Google Shopping / AdWords Grouping": "",
+                "Google Shopping / AdWords Labels": "",
+                "Google Shopping / Condition": "New",
+                "Google Shopping / Custom Product": "FALSE",
+                "Variant Image": product['image_src'],
+                "Variant Weight Unit": "",
+                "Variant Tax Code": "",
+                "Cost per item": "",
+                "Price / International": "",
+                "Compare At Price / International": "",
+                "Status": "active"
+            }
+            writer.writerow(shopify_product)
+    print(f"Export terminé : {csv_filename}")
+
+
+# check products_shopify file entries count
+# product_csv_filename = "products_shopify.csv"
+# input_dir = "result/pro-elevage"
+# product_file_path = os.path.join(input_dir, product_csv_filename)
+# with open(product_file_path, mode='r', newline='', encoding='utf-8') as product_file:
+#     reader = csv.DictReader(product_file)
+#     for row in reader:
+#         products.append(row)
+#     print("End Reconstitution des Produits")
+#     print(len(products))
