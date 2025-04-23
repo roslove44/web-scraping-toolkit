@@ -415,7 +415,6 @@ def check_products_length_in_file(folder, file):
         print("End Reconstitution des Produits")
         print(len(products))
 
-check_products_length_in_file("result/looko/products_by_main_category", "9_shopify.csv")
 
 def contnue_set_products_to_shopify_file(number, start):
     input_dir = "result/looko"
@@ -510,3 +509,45 @@ def contnue_set_products_to_shopify_file(number, start):
             n= n+1
     print(f"Export terminé : {output_file}")
 
+check_products_length_in_file("result/looko/products_by_main_category", "3_shopify.csv")
+
+def split_csv_file(input_file, output_dir, lines_per_file=1000):
+    """
+    Split un fichier CSV en plusieurs fichiers avec un nombre fixe de lignes.
+    
+    Args:
+        input_file (str): Chemin vers le fichier CSV à découper.
+        output_dir (str): Dossier où stocker les fichiers découpés.
+        lines_per_file (int): Nombre de lignes par fichier (hors en-tête).
+    """
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    with open(input_file, mode='r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile)
+        headers = next(reader)
+
+        file_count = 1
+        current_lines = []
+        for i, row in enumerate(reader, start=1):
+            current_lines.append(row)
+            if i % lines_per_file == 0:
+                output_file = os.path.join(output_dir, f"part_{file_count}.csv")
+                with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
+                    writer = csv.writer(outfile)
+                    writer.writerow(headers)
+                    writer.writerows(current_lines)
+                current_lines = []
+                file_count += 1
+
+        # Pour les lignes restantes
+        if current_lines:
+            output_file = os.path.join(output_dir, f"part_{file_count}.csv")
+            with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
+                writer = csv.writer(outfile)
+                writer.writerow(headers)
+                writer.writerows(current_lines)
+
+    print(f"✅ Fichier splitté en {file_count} partie(s) dans le dossier : {output_dir}")
+
+# split_csv_file("result/looko/products_by_main_category/3_shopify.csv", "result/looko/products_by_main_category/3", lines_per_file=5000)
